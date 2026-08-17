@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific
+data/raw/
+data/interim/
+*.duckdb
+.streamlit/secrets.toml
+.snowsql/config
+docs/data_profiles/*.tmp
